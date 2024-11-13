@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Produto</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="produto.css">
+</head>
+<body>
+ 
+ 
+    <header class="reder w-100 d-flex justify-content-center">
+        <div class="divisao d-flex align-items-center">
+            <a href="../pages/index.php"><h1 class="logo ">Recomeço Animal</h1></a>
+            <nav class="d-flex navreder justify-content-around align-items-center">
+ 
+                <a href="#destino" class="text-decoration-none ancora">Contatos</a>
+                <a class="text-decoration-none ancora" href="amigo.php" target="_self">Quero adotar</a>
+                <a href="ajudar.html" class="text-decoration-none ancora">Quero ajudar</a>
+                <a href="quem.html" class="text-decoration-none ancora">Quem somos</a>
+ 
+            </nav>
+            <button class="entrar">Entrar</button>
+        </div>
+    </header>
+ 
+ 
+        <div class="product d-flex align-items-center justify-content-center">
+       
+                <div class="divisora d-flex justify-content-center align-items-center flex-column">
+                    <h1 id="produto-titu"></h1>
+                    <img id="produto-imagem" class="cardi col-lg-6 img-fluid" alt="Imagem do Produto">
+                </div>
+                <div class="descri col-lg-6 justify-content-center align-items-center d-flex flex-column">
+                    <h1 id="produto-nome" class="card-title"></h1>
+                    <p id="produto-outros" class="outr"></p>
+                    <p id="produto-descricao" class="card-text col-lg-6"></p>
+                    <button class="botaoadote" onclick="openModal()">Quero adotar</button>
+                </div>
+       
+        </div>
+ 
+ 
+    <div class="modal-overlay" id="contactModal">
+        <div class="modal-content">
+            <button class="close-button" onclick="closeModal()">&times;</button>
+            <h5>Informações de Contato</h5>
+            <p>
+                📞 Telefone: (31) 9988-1122 <br>
+                ✉️ E-mail: contato@seuprojeto.com <br>
+                💬 Redes Sociais: <a href="#" class="text-decoration-none">Instagram</a> | <a href="#" class="text-decoration-none">Facebook</a> | <a href="#" class="text-decoration-none">Twitter</a> <br>
+                📍 Endereço: Rua dos Animais, 123 – Contagem, Eldorado
+            </p>
+        </div>
+    </div>
+ 
+    <footer>
+ 
+        <section id="destino">
+            <div class="foter text-center d-flex justify-content-center align-items-center">
+                <p class="cor">
+                    📞 Telefone: (31) 9988-1122 <br>
+                    ✉️ E-mail: contato@seuprojeto.com <br>
+                    💬 Redes Sociais: <a href="#" class="text-decoration-none">Instagram</a> | <a href="#" class="text-decoration-none">Facebook</a> | <a href="#" class="text-decoration-none">Twitter</a>
+                   
+                    <br>📍 Endereço: Rua dos Animais, 123 – Contagem, Eldorado
+                </p>
+            </div>
+        </section>
+ 
+    </footer>
+ 
+    <script src="produto.js"></script>
+</body>
+</html>
+ 

@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background: #fcf2e5;
+}
+ 
+.divisao{
+    width: 80%;
+}
+ 
+.logo{
+    border-radius: 3rem;
+    height: 10vh;
+    color: #f4ca44;
+}
+ 
+.reder{
+    height: 13vh;
+    align-items: center;
+    border-bottom: 3px solid;
+    border-color: #d28a76;
+}
+ 
+.navreder{
+    justify-content: center;
+    width: 100%;
+}
+ 
+.navreder, a{
+    font-weight: bold;
+    font-family: "Bree Serif", serif;
+    font-size: large;
+    color: #d28a76;
+}
+ 
+.ancora{
+    color: #d28a76;
+}
+ 
+.entrar{
+    background-color: #d28a76;
+    width: 10rem;
+    height: 5vh;
+    border-radius: 5rem;
+}
+ 
+.entrar, .bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: larger;
+}
+ 
+.caot{
+    width: 30rem;
+    border-radius: 8rem;
+    border: 5px solid;
+}
+ 
+.main{
+    height: 100vh;
+}
+ 
+.centro{
+    width: 50rem;
+}
+ 
+.botao{
+    background-color: #d28a76;
+    width: 30rem;
+    height: 8vh;
+    border-radius: 8rem;
+}
+ 
+.botao, .bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-weight: bold;
+    font-size: larger;
+}
+ 
+.search{
+    width: 8rem;
+    height: 4vh;
+    border-radius: 2rem;
+    background-color: #fcf2e5;
+    color: #d28a76;
+}
+ 
+.divi{
+    background-color: #d28a76;
+    height: 10vh;
+    border-radius: 5rem;
+    margin-top: 2rem;
+}
+ 
+.barra{
+    border-radius: 5rem;
+    background-color: #fcf2e5;
+    height: 4vh;
+    outline: none;
+}
+ 
+.quem{
+    line-height: 2rem;
+    font-family: "Bree Serif", serif;
+    font-size: large;
+}
+ 
+.quemsomos h1{
+    color: #d28a76;
+}
+ 
+.foter{
+    height: 10rem;
+    border-top: 2px solid #d28a76;
+    font-family: "Bree Serif", serif;
+    font-size: large;
+}
+ 
+.cor a{
+    color: #d28a76;
+}
+ 
+/* Novo estilo para o layout dos cards */
+ 
+/* Card container para controlar o layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+/* Estilo para cada card */
+/* Estilo para cada card */
+.card {
+    width: 100%;
+    max-width: 300px; /* Limita a largura máxima do card */
+    margin: 5px; /* Diminui o espaço entre os cards */
+    border-radius: 15px;
+}
+ 
+/* Card container para controlar o layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+/* Estilo para o botão */
+.btn {
+    background-color: #d28a76;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    padding: 10px;
+}
+ 
+/* Margem no botão para garantir espaçamento */
+.mt-auto {
+    margin-top: auto;
+}
+ 
+.formu{
+    width: 50%;
+    border: 2px solid;
+    height: 50vh;
+}
+ 
+.formu h1{
+    color: #d28a76;
+    font-size: 5rem;
+}
+ 
+.formsec{
+    border: 5px solid;
+    height: 100vh;
+}
+ 
+.bsenha{
+    background-color: #d28a76;
+    color: white;
+    height: 3rem;
+    border-radius: 3rem;
+}
+ 
+.fundo{
+    background-color: #d28a76;
+}
+

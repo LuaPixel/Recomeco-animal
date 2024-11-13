@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #1b1b2f;
+  }
+  
+  #problema {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 10px #e43f5a, 0 0 20px #e43f5a, 0 0 30px #ff4c6e;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  /* Efeito de hover para brilho */
+  #problema:hover {
+    color: #ff4c6e;
+    text-shadow: 0 0 20px #e43f5a, 0 0 30px #ff4c6e, 0 0 40px #ff4c6e, 0 0 50px #ff4c6e;
+  }
+  
+  /* Animação de brilho pulsante */
+  @keyframes neonPulse {
+    0%, 100% {
+      text-shadow: 0 0 10px #e43f5a, 0 0 20px #e43f5a, 0 0 30px #ff4c6e;
+    }
+    50% {
+      text-shadow: 0 0 20px #ff4c6e, 0 0 30px #ff4c6e, 0 0 40px #ff4c6e;
+    }
+  }
+  
+  #problema {
+    animation: neonPulse 1.5s infinite alternate;
+  }
+  
